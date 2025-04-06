@@ -1,13 +1,8 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/img/Rover-black-bg.png">
-    <img alt="Daytona logo" src="/img/Rover-white-bg.jpg" width="60%">
-  </picture>
-</div>
+This repository is a personal fork of the original ats-cv project. I've adapted it for my own use, customizing the structure and templates to better fit my résumé style and needs.
 
-This repository has several simple yet effective résumé template using basic LaTeX commands. The BASE ROVER template requires only about 10 lines of code to set up a clean and minimal résumé format. For your résumé, there's no need for any custom résumé class, which requires you to learn new commands and options. These templates leverage the full power and flexibility of LaTeX, allowing you to customize every aspect without the constraints of predefined classes. All templates use `article` class and preinstalled fonts only.
+The templates are based on simple yet effective LaTeX layouts that require minimal setup. The original BASE ROVER template, for example, needs only about 10 lines of code to create a clean, minimal résumé. No need for custom résumé classes — just standard LaTeX using the article class and preinstalled fonts.
 
-These templates are designed with ATS (Applicant Tracking System) compatibility in mind, featuring single-column layouts that ensure your résumé is easily parsed. By using standard LaTeX commands, they maintain a clear and organized structure, making it simple for both ATS software and recruiters to quickly identify key details.
+These templates are also ATS (Applicant Tracking System)–friendly, using a single-column layout and standard commands to ensure easy parsing by both software and recruiters. It’s a balance of clean design and high compatibility.
 
 
 ## Getting Started
