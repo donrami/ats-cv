@@ -9,44 +9,10 @@ This repository has several simple yet effective résumé template using basic L
 
 These templates are designed with ATS (Applicant Tracking System) compatibility in mind, featuring single-column layouts that ensure your résumé is easily parsed. By using standard LaTeX commands, they maintain a clear and organized structure, making it simple for both ATS software and recruiters to quickly identify key details.
 
-If you have any questions about using this template or formatting your résumé, feel free to post them in the [Discussions](https://github.com/subidit/rover-resume/discussions) section. 
-
-
-## Screenshots
-
-| [![Base Rover](/img/base-rover.jpg)](/templates/base%20rover/) | [![Star Rover](/img/star-rover.jpg)](/templates/star%20rover/) | 
-|:----:|:-----:|
-| Base Rover Template | Star Rover Template |
-
-| [![Week Rover](/img/monday.jpg)](/templates/week%20rover/main-rover.tex) | [![Week Rover](/img/tuesday.jpg)](/templates/week%20rover/main-rover.tex) | 
-|:----:|:-----:|
-| Monday - Week Rover | Tuesday - Week Rover |
-
-| [![Milky Rover](/img/milky-rover.jpg)](/templates/milky%20rover/) | [![Fancy Rover](/img/fancy-rover.jpg)](/templates/fancy%20rover/) | 
-|:----:|:-----:|
-| Milky Rover Template | Fancy Rover Template |
-
-*Milky Rover Template is a recreation of [Butterick’s practical typography](https://practicaltypography.com/resumes.html) résumé template.
-
-
-
-## Features
-- Single or Double lined title option.
-- Multiple ways to format the Name & Contact info banner.
-- ATS friendly.
-- Works with pre-installed LaTeX fonts. 
-- Uses `article` class. No need to learn the working of any custom class.
-- Uses typographic best practices. 
-- Your content looks clean and structured.
-
-
-## Quick start
-[Edit on Overleaf](https://www.overleaf.com/latex/templates/rover-resume/bpzqtssvfgsn). Or just copy paste the code into your favorite LaTeX editor.
 
 ## Getting Started
 1. **Get the Repository**: Fork or Download this repository to your local machine.   
-2. **Select a Template**: Choose a template from the available options.
-3. **Fill in Your Details**: Personalize the template by filling in your information.
+2. **Fill in Your Details**: Personalize the template by filling in your information.
 
 
 ### Tips for Using LaTeX Commands
@@ -77,16 +43,6 @@ We can circumvents this issue by disabling the creation of bookmarks as shown be
 
 > [!CAUTION]
 > To avoid generating warnings, the `bookmarks` option in the `hyperref` package must be set during package loading with `\usepackage[bookmarks=false]{hyperref}`. You can use `\hypersetup{}` for everything else.
-
-
-## Support
-
-For inquiries or assistance, visit the [Discussions](https://github.com/subidit/rover-resume/discussions) tab.
-
-Feel free to contribute to the project or provide feedback by opening an issue or submitting a pull request. 
-
-Happy job hunting!
-
 
 ## License
 
