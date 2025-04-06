@@ -1,0 +1,142 @@
+%-------------------------
+% Rover Resume Template
+% Link: https://github.com/subidit/rover-resume
+%------------------------
+
+\documentclass[11pt]{article} % fontsize 10pt/11pt/12pt
+
+\usepackage[a4paper, margin=1in]{geometry}
+\pagestyle{empty} % remove page number
+
+\setcounter{secnumdepth}{0} % remove section numbering
+
+\usepackage{enumitem} % formatting list style
+\setlist[itemize]{noitemsep, left=0pt..1.5em}
+\setlist[description]{itemsep=0pt}
+
+\usepackage{titlesec} 
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\titleformat{\section}{\large\bfseries\uppercase}{}{}{}[\titlerule]
+\titleformat{\subsection}{\large\scshape}{}{}{}
+\titleformat{\subsubsection}{\large\itshape}{}{}{}
+
+\usepackage{graphicx}
+
+\usepackage{tikz}
+\usepackage[export]{adjustbox} % for valign options in \includegraphics
+
+\usepackage{fontspec}
+\setmainfont{Charis SIL}
+\linespread{1.05}
+
+\usepackage[none]{hyphenat}
+
+\newfontfamily\namefont{IBM Plex Sans} % Or Helvetica, Fira Sans, etc.
+
+\begin{document}
+	\sloppy	
+	\setlength{\parskip}{1pt}
+	\noindent
+	\begin{minipage}[c]{0.18\textwidth}
+		\begin{tikzpicture}
+			\clip (0,0) circle (1.5cm); % radius of the circle
+			\node at (0,0) {\includegraphics[width=3cm,height=3cm]{profile.jpg}}; % adjust size as needed
+		\end{tikzpicture}
+	\end{minipage}
+	\hspace{1.5em} % <-- Adjust this spacing
+	\begin{minipage}[c]{0.78\textwidth} % Adjust the width to balance layout
+		\raggedright
+		{\namefont\Huge\bfseries Rami Abu-Hamad}\\[0.5ex] % Your name
+		Technical Solutions Expert \\[2ex] % Optional subtitle
+		
+		Email: rami@abu-hamad.de \\
+		Mobile: \\
+		LinkedIn: linkedin.com/in/rami-abu-hamad 
+	\end{minipage}
+	
+	\vspace{2ex} % Space between header and next section
+	
+	\section{Education}
+	%=================%
+	\vspace{-1.5ex}
+	\subsection{Aachen University of Applied Sciences \hfill Jülich, Germany}
+	\subsubsection{M.Sc. Energy Systems \hfill 2004 – 2007}
+	\begin{itemize}[itemsep=4pt, topsep=2pt, left=1em]
+		\item Master thesis score 1.0 - Cumulative score 1.7
+		%    \item Related Coursework: real-estate financing, criminal procedure, corporations
+		%    \item Rover Resume Award
+	\end{itemize}
+	
+	\subsection{Hashemite University \hfill Zarqa, Jordan}
+	\subsubsection{B.Sc. Mechanical Engineering \hfill 1999 – 2004}
+	\begin{itemize}[itemsep=4pt, topsep=2pt, left=1em]
+		\item Cumulative GPA 3.55 with honors
+		%    \item Related Coursework: real-estate financing, criminal procedure, corporations
+		%    \item Rover Resume Award
+	\end{itemize}
+	
+	\section{Experience}
+	%=================%
+	\vspace{-1.5ex}
+	\subsection{Volume Graphics GmbH, part of Hexagon AB \hfill Heidelberg, Germany}
+	\subsubsection{Technical Solutions Expert \hfill  03/2020 – 12/2024}
+	\begin{itemize}[itemsep=4pt, topsep=2pt, left=1em]
+		\item Delivered first- and second-level technical support to international clients in English and German via email, phone, and remote access tools.
+		\item Designed and implemented customized workflows in VG software for clients across industry, research, and academia.
+		\item Researched and communicated complex technical issues across departments to ensure clarity and resolution.
+		\item Led user community engagement, including forum support and knowledge base article creation, while expanding internal documentation and troubleshooting resources.
+		\item Managed bug reports and feature requests in JIRA, supporting agile software development and QA testing through user acceptance and issue tracking processes.       
+	\end{itemize}
+	
+	\subsection{CENIT AG \hfill Stuttgart, Germany}
+	\subsubsection{Application Consultant \hfill 05/2019 – 10/2019}
+	\begin{itemize}[itemsep=4pt, topsep=2pt, left=1em]
+		\item Delivered end-user and expert-level training on tolerance management systems, including 3DCS software.
+		\item Designed and implemented pilot methodologies to improve digital tolerance workflows for enterprise clients.
+		\item Led on-site customer onboarding and system integration for tolerance management solutions.
+		\item Provided technical support and user assistance via hotline, ensuring smooth software adoption and troubleshooting.  
+	\end{itemize}
+	
+	\subsection{AKKA Technologies \hfill Sindelfingen, Germany}
+	\subsubsection{Lead Engineer \hfill 11/2017 – 02/2019}
+	\begin{itemize}[itemsep=4pt, topsep=2pt, left=1em]
+		\item Designed and implemented digital workflows to support data-driven tolerance simulations and virtual build analysis.
+		\item Automated assembly alignment strategies to reduce variation and enhance system-level quality assurance.
+		\item Conducted advanced 2D and 3D simulations using industry-standard tools to validate fit, function, and system integrity.
+		\item Collaborated with cross-functional stakeholders through technical workshops, aligning simulation insights with product requirements and engineering strategies.
+	\end{itemize}
+	
+	\subsection{MAGNA Car Top Systems GmbH \hfill Bietigheim-Bissingen, Germany}
+	\subsubsection{Product Developer and Digital Product Data Specialist \hfill 05/2011 – 10/2017}
+	\begin{itemize}[itemsep=4pt, topsep=2pt, left=1em]
+		\item Developed end-to-end CAD data pipelines and integrated PDM workflows to support simulation-driven development.
+		\item Automated pre- and post-processing tasks for tolerance analysis using modern digital engineering tools.
+		\item Facilitated agile product data validation through system integrations, documentation, and stakeholder collaboration.
+		\item Interfaced with multi-disciplinary teams to translate engineering goals into digital workflows and software-based tolerancing solutions.
+	\end{itemize}
+	
+	\subsection{Various Employers \hfill Germany}
+	\subsubsection{Earlier Experience – Engineering \& Simulation Roles \hfill 2008 –  2011}
+	\begin{itemize}[itemsep=4pt, topsep=2pt, left=1em]
+		\item Conducted tolerance simulations and developed digital tolerance concepts using tools such as 3DCS, CATIA V5, and VisVSA.  
+		\item Delivered technical support, FTA documentation, and alignment analyses for complex assemblies.  
+	\end{itemize}
+	
+	%\section{Certification \& Awards}
+	%%===============================%
+	%\begin{enumerate}[itemsep=0pt]
+	%  \item [2023] Some programming bootcamp, Location.
+	%  \item [2022] Forbes Top 15 Procrastinators under 15.
+	%  \item [2021] Conducted workshop on family planning by abstainance in SomePlace.
+	%\end{enumerate}
+	
+	\section{Skills \& Interests}
+	%===========================%
+	\begin{description}%[nosep]
+		\item[Proficient] Python, Bash, Git, Docker, Jenkins, Buildbot, Archlinux, Debian-Linux, Windows, JIRA, 3DCS, CATIA V5, VGSTUDIO MAX, PDM systems, SmarTeam, Siemens Teamcenter, SQL, Agile/Scrum, ToleranceSim, Siemens VisVSA 
+		\item[Working knowledge] C++, Java, JavaScript, Node.js, React.js, Kubernetes, Helm, Terraform
+		\item[Languages] Business fluent in German, English and Arabic
+	\end{description}
+	
+\end{document}
